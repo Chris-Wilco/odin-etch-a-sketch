@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: auto;
+    height: auto;
+}
+
+#grid-container > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: blueviolet;
+    width: 800px;
+    height: 800 px;
+}
+
+#grid-container > div > div {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
