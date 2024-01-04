@@ -3,22 +3,30 @@ body {
     flex-direction: column;
 }
 
+#button-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
 #grid-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
-    width: auto;
+    gap: 10px;
+    aspect-ratio: 1 / 1;
+    width: 100%;
     height: auto;
+    padding: 10px;
 }
 
 #grid-container > div {
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
+    gap: 10px;
     background-color: blueviolet;
-    width: 800px;
-    height: 800 px;
+    width: 100%;
 }
 
 #grid-container > div > div {
@@ -26,8 +34,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    aspect-ratio: 1 / 1;
+    width: 100%;
     text-align: center;
 }
 
